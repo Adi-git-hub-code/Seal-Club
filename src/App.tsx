@@ -22,7 +22,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/seal-club">
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
